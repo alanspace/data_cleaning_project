@@ -103,13 +103,12 @@ Saved in the output/visualizations/ directory.
 Pie Chart for Country Distribution	Correlation Heatmap
 ![alt text](output/visualizations/country_pie_chart.png)
 ![alt text](output/visualizations/correlation_heatmap.png)
+
 2. Interactive Dashboard (interactive_dashboard.html)
 An HTML file that you can open in any web browser to interactively explore the data.
 
 3. PDF Summary Report (summary_report.pdf)
 A multi-page document that summarizes the entire analysis, perfect for sharing with stakeholders.
-
-![alt text](output/visualizations/country_pie_chart.png)
 
 # Future Enhancements
 While this pipeline is robust, it can be extended even further:
