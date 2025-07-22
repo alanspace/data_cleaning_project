@@ -103,7 +103,7 @@ Age Distribution of Employees: Shows the age demographics.
 Salary Distribution of Employees: Provides insights into the salary structure.
 (You can include images of your plots here for a more visual README)
 
-![alt text](visualizations/country_distribution.png)
+![alt text](output/visualizations/country_pie_chart.png)
 
 # Future Enhancements
 I have several ideas for extending this project's capabilities:
