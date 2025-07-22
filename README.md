@@ -26,22 +26,22 @@ The primary goal of this project is to take a raw, "dirty" dataset and transform
 
 # Key Features
 1. Comprehensive Data Cleaning:
-   Duplicate Removal: Efficiently identifies and removes duplicate records.
-   Strategic Missing Value Imputation:
+   - Duplicate Removal: Efficiently identifies and removes duplicate records.
+   - Strategic Missing Value Imputation:
       Fills categorical missing data (Name, Country) with "Unknown".
-      Assigns placeholder values for missing contact information (Email, PhoneNumber).
-      Imputes missing numerical data (Age, Salary) with the column's mean to maintain statistical integrity.
-      Standardizes missing JoiningDate with a default value.
-   Data Type Standardization: 
+   - Assigns placeholder values for missing contact information (Email, PhoneNumber).
+   - Imputes missing numerical data (Age, Salary) with the column's mean to maintain statistical integrity.
+   - Standardizes missing JoiningDate with a default value.
+   - Data Type Standardization: 
       Converts JoiningDate to a proper datetime format for time-series analysis.
-   Insightful Data Visualization:
-      Country Distribution: A bar chart to visualize the geographical distribution of employees.
-   Age Demographics: 
-      A histogram to understand the age spread of the workforce.
-   Salary Analysis: 
+2. Insightful Data Visualization:
+   - Country Distribution: A bar chart to visualize the geographical distribution of employees.
+   - Age Demographics: 
+   A histogram to understand the age spread of the workforce.
+   - Salary Analysis: 
       A histogram to illustrate the salary distribution across the company.
-   Data Export:
-      Saves the clean, analysis-ready dataset to a new CSV file, clean_data.csv.
+3. Data Export:
+   - Saves the clean, analysis-ready dataset to a new CSV file, clean_data.csv.
 
 # Project Structure
 ```bash
