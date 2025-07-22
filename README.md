@@ -47,11 +47,20 @@ The primary goal of this project is to take a raw, "dirty" dataset and transform
 ```bash
 data-cleaning-and-visualization/
 │
-├── dirty_data_for_cleaning.csv   # The initial, messy dataset.
-├── clean_data.csv                # The cleaned, processed dataset.
-├── data_cleaning.py              # The core Python script for all operations.
-├── README.md                     # You are here!
-└── .gitignore                    # To exclude unnecessary files from version control.
+├── output/
+│   ├── visualizations/
+│   │   ├── age_distribution.png
+│   │   ├── salary_distribution.png
+│   │   ├── country_pie_chart.png
+│   │   └── correlation_heatmap.png
+│   │
+│   ├── interactive_dashboard.html  
+│   ├── summary_report.pdf          
+│   └── cleaned_data.csv
+│
+├── dirty_data_for_cleaning.csv
+├── data_cleaning_pipeline.py      
+└── requirements.txt 
 
 ```
 
@@ -105,16 +114,6 @@ Interactive Dashboard: Develop an interactive dashboard using Plotly or Dash to 
 Automated Reporting: Generate an automated PDF report summarizing the cleaning process and key findings from the visualizations.
 Contributing
 I am open to contributions and collaborations! If you have ideas for improvements or have found a bug, please feel free to:
-
-# Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/your-feature).
-Open a Pull Request.
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-(Note: You would need to add a LICENSE.md file with the MIT license text)
 
 # Acknowledgments
 A big thank you to the open-source community for providing the amazing tools that made this project possible.
