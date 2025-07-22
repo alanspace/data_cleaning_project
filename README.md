@@ -45,7 +45,6 @@ The primary goal of this project is to take a raw, "dirty" dataset and transform
 
 # Project Structure
 ```bash
-Generated bash
 data-cleaning-and-visualization/
 │
 ├── dirty_data_for_cleaning.csv   # The initial, messy dataset.
@@ -56,34 +55,34 @@ data-cleaning-and-visualization/
 
 ```
 
-Use code with caution.
-Bash
-Getting Started
+# Getting Started
 To get this project up and running on your local machine, follow these simple steps.
 
-# Prerequisites
+##  Prerequisites
 Make sure you have Python 3.6 or later installed. You will also need pip to install the required libraries.
 
-# Installation
+##  Installation
 Clone the repository:
-Generated bash
+```bash
 git clone https://github.com/your-username/data-cleaning-and-visualization.git
 cd data-cleaning-and-visualization
-Use code with caution.
-Bash
+```
+
+
 Install the required libraries:
-Generated bash
+```bash
 pip install -r requirements.txt
-Use code with caution.
-Bash
+```
+
 (Note: You will need to create a requirements.txt file containing pandas and matplotlib)
-How to Run
+
+### How to Run
 Place your data: Ensure your raw data file, dirty_data_for_cleaning.csv, is in the root of the project directory.
 Execute the script:
-Generated bash
+```bash
 python data_cleaning.py
-Use code with caution.
-Bash
+```
+
 Check the output:
 The script will generate and display three plots.
 The cleaned data will be saved as clean_data.csv.
