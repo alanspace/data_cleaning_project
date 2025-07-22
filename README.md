@@ -41,6 +41,7 @@ Data Export:
 Saves the clean, analysis-ready dataset to a new CSV file, clean_data.csv.
 
 # Project Structure
+```bash
 Generated bash
 data-cleaning-and-visualization/
 │
@@ -49,6 +50,9 @@ data-cleaning-and-visualization/
 ├── data_cleaning.py              # The core Python script for all operations.
 ├── README.md                     # You are here!
 └── .gitignore                    # To exclude unnecessary files from version control.
+
+```
+
 Use code with caution.
 Bash
 Getting Started
